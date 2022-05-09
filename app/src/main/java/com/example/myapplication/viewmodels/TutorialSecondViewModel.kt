@@ -1,8 +1,7 @@
 package com.example.myapplication.viewmodels
 
-import com.example.bf_kotlin_client.utils.AppFragmentManager
-import com.example.bf_kotlin_client.utils.GlobalVariables
-import com.example.myapplication.fragments.FirmAuthFragment
+import com.example.myapplication.utils.AppFragmentManager
+import com.example.myapplication.utils.GlobalVariables
 
 class TutorialSecondViewModel {
     var fragmentManager = GlobalVariables.instance.fragmentManager

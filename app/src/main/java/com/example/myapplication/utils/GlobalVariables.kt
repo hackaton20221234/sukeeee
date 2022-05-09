@@ -1,4 +1,4 @@
-package com.example.bf_kotlin_client.utils
+package com.example.myapplication.utils
 
 import android.content.Context
 import android.view.LayoutInflater

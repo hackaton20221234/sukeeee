@@ -1,11 +1,10 @@
-package com.example.bf_kotlin_client.utils
+package com.example.myapplication.utils
 
 import android.content.Context
 import android.widget.Toast
-import com.android.volley.ServerError
 import com.android.volley.VolleyError
 import com.android.volley.toolbox.*
-import com.example.bf_kotlin_client.dtos.entities.ServerError
+import com.example.myapplication.dtos.entities.ServerError
 import com.google.gson.Gson
 
 class HttpWorker(private var applicationContext: Context) {

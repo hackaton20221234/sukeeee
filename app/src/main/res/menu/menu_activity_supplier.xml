@@ -2,15 +2,15 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/productsSection"
-        android:icon="@drawable/ic_carbon_data_center"
-        android:title="Фирмы" />
-    <item
-        android:id="@+id/farmersSection"
-        android:icon="@drawable/ic_carbon_tool_kit"
-        android:title="Товары"
+        android:icon="@drawable/ic_carbon_delivery"
+        android:title="Доставка"
         />
     <item
-        android:id="@+id/favouritesSection"
+        android:id="@+id/farmersSection"
         android:icon="@drawable/ic_carbon_user"
         android:title="профиль" />
+    <item
+        android:id="@+id/favouritesSection"
+        android:icon="@drawable/ic_carbon_tool_kit"
+        android:title="Товары"/>
 </menu>

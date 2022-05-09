@@ -1,4 +1,4 @@
-package com.example.bf_kotlin_client.utils
+package com.example.myapplication.utils
 
 import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding
@@ -11,9 +11,7 @@ import com.example.myapplication.fragments.*
 class AppFragmentManager(private var fragmentManager: FragmentManager) {
 
     private var tabs: MutableMap<FragmentsName, ArrayList<Fragment>> = mutableMapOf(
-        FragmentsName.GoodsCategoriesFragment to arrayListOf(GoodsCategoriesFragment()),
         FragmentsName.TutorialFirstFragment to arrayListOf(TutorialFirstFragment()),
-        FragmentsName.FirmListFragment to arrayListOf(FirmListFragment()),
         FragmentsName.SupplierProfileFragment to arrayListOf(SupplierProfileFragment()),
     )
     private var currentTab = tabs.entries.first()
@@ -23,14 +21,11 @@ class AppFragmentManager(private var fragmentManager: FragmentManager) {
         FirmAuctionsFragment,
         FirmFragment,
         FirmListFragment,
-        FirmProfileFragment,
         FirmDeliveryFragment,
         EditAnnouncementFragment,
         EnterFragment,
         GoodFragment,
         GoodPreviewFragment,
-        GoodsCategoriesFragment,
-        GoodsCategoryFragment,
         SupplierAuthFragment,
         SupplierActivity,
         SupplierProfileFragment,
@@ -85,8 +80,6 @@ class AppFragmentManager(private var fragmentManager: FragmentManager) {
         var newFragment: Fragment = when (fragmentName) {
             FragmentsName.TutorialSecondFragment-> TutorialSecondFragment()
             FragmentsName.FirmAuthFragment->FirmAuthFragment()
-            FragmentsName.GoodsCategoriesFragment -> GoodsCategoriesFragment()
-            FragmentsName.FirmListFragment -> FirmListFragment()
             FragmentsName.SupplierProfileFragment -> SupplierProfileFragment()
             else -> throw IllegalArgumentException("This Fragment can't be instantiate")
         }
