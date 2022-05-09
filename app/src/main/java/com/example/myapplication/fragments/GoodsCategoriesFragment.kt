@@ -8,7 +8,7 @@ import androidx.fragment.app.Fragment
 import com.example.myapplication.databinding.ActivityMainBinding
 import com.example.myapplication.viewmodels.TutorialFirstViewModel
 
-class SupplierListFragment: Fragment() {
+class GoodsCategoriesFragment  : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,

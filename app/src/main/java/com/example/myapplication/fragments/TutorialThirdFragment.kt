@@ -5,19 +5,19 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.example.myapplication.databinding.ActivityMainBinding
-import com.example.myapplication.viewmodels.TutorialFirstViewModel
+import com.example.myapplication.databinding.ThirdTutorialActivityBinding
+import com.example.myapplication.viewmodels.TutorialThirdViewModel
 
-class SupplierListFragment: Fragment() {
+class TutorialThirdFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
 
-        var binding = ActivityMainBinding.inflate(layoutInflater)
+        var binding = ThirdTutorialActivityBinding.inflate(layoutInflater)
 
-        binding.viewModel = TutorialFirstViewModel()
+        binding.viewModel = TutorialThirdViewModel()
 
         return binding.root
     }
