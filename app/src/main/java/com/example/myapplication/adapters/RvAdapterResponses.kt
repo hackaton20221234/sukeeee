@@ -5,10 +5,8 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.myapplication.utils.GlobalVariables
 import com.example.myapplication.R
-import com.example.myapplication.databinding.EditAnnouncementBinding
-import com.example.myapplication.databinding.ResponsePageBinding
-import com.example.myapplication.databinding.GoodPreviewBinding
-import com.example.myapplication.databinding.GoodResponcePreviewBinding
+import com.example.myapplication.databinding.*
+import com.example.myapplication.databinding.ActivityMainBinding.bind
 import com.example.myapplication.dtos.entities.Good
 import com.example.myapplication.dtos.entities.Response
 import com.example.myapplication.utils.AppFragmentManager
@@ -18,7 +16,7 @@ class RvAdapterResponses(private var responces: ArrayList<Response>):
     RecyclerView.Adapter<RvAdapterResponses.ViewHolder>() {
     private var fragmentManager = GlobalVariables.instance.fragmentManager
 
-    inner class ViewHolder internal constructor(var binding: GoodResponcePreviewBinding) :
+    inner class ViewHolder internal constructor(var binding: GoodsFragmentBinding) :
         RecyclerView.ViewHolder(binding.root)
 
     inner class ViewModel {
@@ -37,7 +35,7 @@ class RvAdapterResponses(private var responces: ArrayList<Response>):
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         var binding = Good.bind(
             LayoutInflater.from(parent.context)
-                .inflate(R.layout.good_responce_preview, parent, false)
+                .inflate(R.layout.goods_fragment, parent, false)
         )
 
         return ViewHolder(binding)

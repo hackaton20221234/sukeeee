@@ -5,9 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.example.myapplication.databinding.GoodPreviewBinding
 import com.example.myapplication.databinding.RegisterActivityBinding
-import com.example.myapplication.viewmodels.GoodPreviewViewModel
 import com.example.myapplication.viewmodels.RegisterViewModel
 
 class RegisterFragment: Fragment() {

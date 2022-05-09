@@ -14,7 +14,7 @@ class RvAdapterGoods(private var goods: ArrayList<Good>):
     RecyclerView.Adapter<RvAdapterGoods.ViewHolder>() {
     private var fragmentManager = GlobalVariables.instance.fragmentManager
 
-    inner class ViewHolder internal constructor(var binding: GoodPreviewBinding) :
+    inner class ViewHolder internal constructor(var binding: GoodsFragmentBinding) :
         RecyclerView.ViewHolder(binding.root)
 
     inner class ViewModel {
@@ -31,9 +31,9 @@ class RvAdapterGoods(private var goods: ArrayList<Good>):
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        var binding = GoodPreviewBinding.bind(
+        var binding = GoodsFragmentBinding.bind(
             LayoutInflater.from(parent.context)
-                .inflate(R.layout.good_preview, parent, false)
+                .inflate(R.layout.goods_fragment, parent, false)
         )
 
         return ViewHolder(binding)

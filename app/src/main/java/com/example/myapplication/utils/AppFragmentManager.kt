@@ -32,7 +32,8 @@ class AppFragmentManager(private var fragmentManager: FragmentManager) {
         RegisterFragment,
         TutorialFirstFragment,
         TutorialSecondFragment,
-        TutorialThirdFragment
+        TutorialThirdFragment,
+        GoodResponsePreviewFragment
     }
 
     init {

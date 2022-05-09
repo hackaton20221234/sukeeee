@@ -5,7 +5,4 @@ import com.example.myapplication.utils.GlobalVariables
 
 class SuppliersProfileViewModel {
     var fragmentManager = GlobalVariables.instance.fragmentManager
-    fun next() {
-        fragmentManager.openFragmentAboveMain(AppFragmentManager.FragmentsName.SupplierAuthFragment)
-    }
 }
