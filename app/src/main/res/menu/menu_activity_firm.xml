@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/productsSection"
+        android:icon="@drawable/ic_carbon_delivery"
+        android:title="Доставка" />
+    <item
+        android:id="@+id/farmersSection"
+        android:icon="@drawable/ic_fluent_board_16_regular"
+        android:title="Обьявления"
+        />
+    <item
+        android:id="@+id/favouritesSection"
+        android:icon="@drawable/ic_carbon_user"
+        android:title="профиль" />
+</menu>
