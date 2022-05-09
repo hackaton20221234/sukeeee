@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="viewModel"
+            type="com.example.myapplication.viewmodels.FirmAuthViewModel" />
+    </data>
+
 
 
     <LinearLayout
@@ -40,27 +47,13 @@
                 android:id="@+id/editText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/round_shape"
-                android:backgroundTint="@color/text_images"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="20dp"
+                android:background="@drawable/round_shape"
+                android:backgroundTint="@color/text_images"
                 android:text="почта"
-                android:textColor="@color/background"
-                android:textSize="@dimen/text_size" />
-
-            <EditText
-                android:id="@+id/editText2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/round_shape"
-                android:backgroundTint="@color/text_images"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginBottom="20dp"
-                android:text="номер телефона"
                 android:textColor="@color/background"
                 android:textSize="@dimen/text_size" />
 
@@ -69,8 +62,8 @@
                 android:id="@+id/imageButton4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/done"
-                android:background="@drawable/round_shape"/>
+                android:background="@drawable/round_shape"
+                app:srcCompat="@drawable/done" />
         </LinearLayout>
 
     </LinearLayout>

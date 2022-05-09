@@ -40,27 +40,13 @@
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/round_shape"
-                android:backgroundTint="@color/text_images"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="20dp"
-                android:text="Фио"
-                android:textColor="@color/background"
-                android:textSize="@dimen/text_size"/>
-
-            <EditText
-                android:id="@+id/editText2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:background="@drawable/round_shape"
                 android:backgroundTint="@color/text_images"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginBottom="20dp"
-                android:text="номер телефона"
+                android:text="Имя"
                 android:textColor="@color/background"
                 android:textSize="@dimen/text_size" />
 
