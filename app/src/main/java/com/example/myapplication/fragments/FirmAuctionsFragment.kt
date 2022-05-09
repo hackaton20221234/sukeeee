@@ -5,21 +5,21 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.example.myapplication.databinding.ActivityMainBinding
+import com.example.myapplication.databinding.FirmAuctionsBinding
 import com.example.myapplication.databinding.GoodsFragmentBinding
+import com.example.myapplication.viewmodels.FirmAuctionsViewModel
 import com.example.myapplication.viewmodels.GoodViewModel
-import com.example.myapplication.viewmodels.TutorialFirstViewModel
 
-class GoodFragment : Fragment() {
+class FirmAuctionsFragment: Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
 
-        var binding = GoodsFragmentBinding.inflate(layoutInflater)
+        var binding = FirmAuctionsBinding.inflate(layoutInflater)
 
-        binding.viewModel = GoodViewModel()
+        binding.viewModel = FirmAuctionsViewModel()
 
         return binding.root
     }

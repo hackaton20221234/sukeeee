@@ -1,23 +1,23 @@
-package com.example.myapplication.fragments
+package com.example.myapplication.views
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.example.myapplication.databinding.ActivityMainBinding
-import com.example.myapplication.viewmodels.TutorialFirstViewModel
+import com.example.myapplication.databinding.FirmMainActivityBinding
+import com.example.myapplication.viewmodels.FirmMainViewModel
 
-class SupplierListFragment: Fragment() {
+class SupplierActivity : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
 
-        var binding = ActivityMainBinding.inflate(layoutInflater)
+        var binding = FirmMainActivityBinding.inflate(layoutInflater)
 
-        binding.viewModel = TutorialFirstViewModel()
+        binding.viewModel = FirmMainViewModel()
 
         return binding.root
     }

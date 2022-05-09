@@ -1,6 +1,6 @@
 package com.example.myapplication.dtos.requests
 
-class AppAuthRequest {
-    var login: String = ""
-    var password: String = ""
-}
+class AppAuthRequest (
+    var login: String,
+    var password: String
+)

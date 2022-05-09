@@ -6,6 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.myapplication.databinding.ActivityMainBinding
+import com.example.myapplication.databinding.FirmProfileBinding
+import com.example.myapplication.viewmodels.FirmsProfileViewModel
 import com.example.myapplication.viewmodels.TutorialFirstViewModel
 
 class FirmProfileFragment  : Fragment() {
@@ -15,9 +17,9 @@ class FirmProfileFragment  : Fragment() {
         savedInstanceState: Bundle?
     ): View {
 
-        var binding = ActivityMainBinding.inflate(layoutInflater)
+        var binding = FirmProfileBinding.inflate(layoutInflater)
 
-        binding.viewModel = TutorialFirstViewModel()
+        binding.viewModel = FirmsProfileViewModel()
 
         return binding.root
     }

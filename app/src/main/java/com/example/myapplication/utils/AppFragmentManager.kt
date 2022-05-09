@@ -20,16 +20,21 @@ class AppFragmentManager(private var fragmentManager: FragmentManager) {
 
     enum class FragmentsName {
         FirmAuthFragment,
+        FirmAuctionsFragment,
         FirmFragment,
         FirmListFragment,
         FirmProfileFragment,
+        FirmDeliveryFragment,
+        EditAnnouncementFragment,
+        EnterFragment,
         GoodFragment,
+        GoodPreviewFragment,
         GoodsCategoriesFragment,
         GoodsCategoryFragment,
         SupplierAuthFragment,
-        SupplierFragment,
-        SupplierListFragment,
+        SupplierActivity,
         SupplierProfileFragment,
+        RegisterFragment,
         TutorialFirstFragment,
         TutorialSecondFragment,
         TutorialThirdFragment

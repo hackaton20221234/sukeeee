@@ -6,6 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.myapplication.databinding.ActivityMainBinding
+import com.example.myapplication.databinding.RegisterSupplierBinding
+import com.example.myapplication.viewmodels.SupplierAuthViewModel
 import com.example.myapplication.viewmodels.TutorialFirstViewModel
 
 class SupplierAuthFragment  : Fragment() {
@@ -15,9 +17,9 @@ class SupplierAuthFragment  : Fragment() {
         savedInstanceState: Bundle?
     ): View {
 
-        var binding = ActivityMainBinding.inflate(layoutInflater)
+        var binding = RegisterSupplierBinding.inflate(layoutInflater)
 
-        binding.viewModel = TutorialFirstViewModel()
+        binding.viewModel = SupplierAuthViewModel()
 
         return binding.root
     }

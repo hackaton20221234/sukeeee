@@ -3,11 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/add.xml" value="0.2825" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/back.xml" value="0.2815" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/call.xml" value="0.2815" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/create_auction.xml" value="0.2825" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/delivery.xml" value="0.2825" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/done.xml" value="0.2815" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/enter.xml" value="0.2825" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/firm_selected.xml" value="0.2825" />
@@ -22,13 +19,9 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/technic.xml" value="0.2825" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication2/app/src/main/res/drawable/tools.xml" value="0.2825" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/activity_main.xml" value="0.35104166666666664" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/edit_announcement.xml" value="0.35104166666666664" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/enter_activity.xml" value="0.35104166666666664" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/firm_auctions.xml" value="0.35104166666666664" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/firm_delivery.xml" value="0.35104166666666664" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/firm_main_activity.xml" value="0.35104166666666664" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/firm_preview.xml" value="0.35104166666666664" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/firm_profile.xml" value="0.35104166666666664" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/firms_list_fragment.xml" value="0.35104166666666664" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/good_categories.xml" value="0.35104166666666664" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/good_preview.xml" value="0.35104166666666664" />
@@ -42,6 +35,32 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/third_tutorial_activity.xml" value="0.35104166666666664" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication2/app/src/main/res/menu/menu_activity_firm.xml" value="0.35104166666666664" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MyApplication2/app/src/main/res/menu/menu_activity_supplier.xml" value="0.35104166666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/sukeeee111/app/src/main/res/drawable/create_auction.xml" value="0.2985" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/sukeeee111/app/src/main/res/drawable/delivery.xml" value="0.2985" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/sukeeee111/app/src/main/res/drawable/exit.xml" value="0.2985" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/sukeeee111/app/src/main/res/drawable/goods.xml" value="0.2985" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/sukeeee111/app/src/main/res/drawable/ic_fluent_board_16_regular.xml" value="0.2985" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/sukeeee111/app/src/main/res/drawable/technic.xml" value="0.2985" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/sukeeee111/app/src/main/res/layout/activity_main.xml" value="0.3428442028985507" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/sukeeee111/app/src/main/res/layout/edit_announcement.xml" value="0.3428442028985507" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/sukeeee111/app/src/main/res/layout/enter_activity.xml" value="0.3428442028985507" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/sukeeee111/app/src/main/res/layout/firm_auctions.xml" value="0.3428442028985507" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/sukeeee111/app/src/main/res/layout/firm_delivery.xml" value="0.3428442028985507" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/sukeeee111/app/src/main/res/layout/firm_main_activity.xml" value="0.3428442028985507" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/sukeeee111/app/src/main/res/layout/firm_preview.xml" value="0.3428442028985507" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/sukeeee111/app/src/main/res/layout/firm_profile.xml" value="0.3428442028985507" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/sukeeee111/app/src/main/res/layout/firms_list_fragment.xml" value="0.3428442028985507" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/sukeeee111/app/src/main/res/layout/good_categories_fragment.xml" value="0.3428442028985507" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/sukeeee111/app/src/main/res/layout/good_preview.xml" value="0.3428442028985507" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/sukeeee111/app/src/main/res/layout/goods_fragment.xml" value="0.3428442028985507" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/sukeeee111/app/src/main/res/layout/register_activity.xml" value="0.3428442028985507" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/sukeeee111/app/src/main/res/layout/register_supplier.xml" value="0.3428442028985507" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/sukeeee111/app/src/main/res/layout/second_tutotrial_activity.xml" value="0.3428442028985507" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/sukeeee111/app/src/main/res/layout/supplier_fragment.xml" value="0.3428442028985507" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/sukeeee111/app/src/main/res/layout/supplier_main_activity.xml" value="0.3428442028985507" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/sukeeee111/app/src/main/res/layout/supplier_profile_fragment.xml" value="0.3432971014492754" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/sukeeee111/app/src/main/res/layout/third_tutorial_activity.xml" value="0.3428442028985507" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/sukeeee111/app/src/main/res/menu/menu_activity_firm.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>
