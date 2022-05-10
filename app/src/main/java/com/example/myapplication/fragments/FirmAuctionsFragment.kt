@@ -6,9 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.myapplication.databinding.FirmAuctionsBinding
-import com.example.myapplication.databinding.GoodsFragmentBinding
 import com.example.myapplication.viewmodels.FirmAuctionsViewModel
-import com.example.myapplication.viewmodels.GoodViewModel
 
 class FirmAuctionsFragment: Fragment() {
     override fun onCreateView(
