@@ -6,7 +6,6 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.myapplication.utils.GlobalVariables
 import com.example.myapplication.R
 import com.example.myapplication.databinding.*
-import com.example.myapplication.databinding.ActivityMainBinding.bind
 import com.example.myapplication.dtos.entities.Good
 import com.example.myapplication.dtos.entities.Response
 import com.example.myapplication.utils.AppFragmentManager
@@ -25,8 +24,8 @@ class RvAdapterResponses(private var responces: ArrayList<Response>):
 
 
         fun openResponseFragment() {
-            fragmentManager.openFragmentAboveMain(AppFragmentManager.FragmentsName.ResponsePage)
-            var binding = fragmentManager.getCurrentFragmentBinding<FragmentResponsePageBinding>()
+            fragmentManager.openFragmentAboveMain(AppFragmentManager.FragmentsName.GoodResponsePreviewFragment)
+            var binding = fragmentManager.getCurrentFragmentBinding<GoodsFragmentBinding>()
             var viewModel = binding!!.viewModel!!
             viewModel.response=response
         }

@@ -23,7 +23,7 @@ class RvAdapterGoods(private var goods: ArrayList<Good>):
 
 
         fun openEditOfferFragment() {
-            fragmentManager.openFragmentAboveMain(AppFragmentManager.FragmentsName.GoodFragment)
+            fragmentManager.openFragmentAboveMain(AppFragmentManager.FragmentsName.GoodResponsePreviewFragment)
             var binding = fragmentManager.getCurrentFragmentBinding<GoodsFragmentBinding>()
             var viewModel = binding!!.viewModel!!
             viewModel.good=good
