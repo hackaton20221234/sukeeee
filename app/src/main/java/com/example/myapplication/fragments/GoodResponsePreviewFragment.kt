@@ -6,7 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.myapplication.databinding.GoodsFragmentBinding
-import com.example.myapplication.viewmodels.GoodResponsePreviewViewModel
+import com.example.myapplication.dtos.responces.GoodsResponse
+import com.example.myapplication.viewmodels.GoodResponseViewModel
 
 
 class GoodResponsePreviewFragment : Fragment() {
@@ -16,9 +17,9 @@ class GoodResponsePreviewFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
 
-        var binding = GoodsFragmentBinding.inflate(layoutInflater)
+        var binding = GoodsResponsePreviewBinding.inflate(layoutInflater)
 
-        binding.viewModel = GoodResponsePreviewViewModel()
+        binding.viewModel = GoodResponsePreviewView()
 
         return binding.root
     }

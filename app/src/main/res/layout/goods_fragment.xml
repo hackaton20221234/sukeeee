@@ -6,7 +6,7 @@
     <data>
         <variable
             name="viewModel"
-            type="com.example.myapplication.viewmodels.GoodResponsePreviewViewModel" />
+            type="com.example.myapplication.viewmodels.GoodResponseViewModel" />
     </data>
 
     <LinearLayout
