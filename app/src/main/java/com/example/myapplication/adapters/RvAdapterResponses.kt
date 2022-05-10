@@ -6,14 +6,11 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.myapplication.utils.GlobalVariables
 import com.example.myapplication.R
 import com.example.myapplication.databinding.*
-import com.example.myapplication.databinding.ActivityMainBinding.bind
-import com.example.myapplication.dtos.entities.Good
 import com.example.myapplication.dtos.entities.Response
-import com.example.myapplication.fragments.GoodResponsePreviewFragment
 import com.example.myapplication.utils.AppFragmentManager
 
 
-class RvAdapterResponses(private var responces: ArrayList<Response>):
+class RvAdapterResponses(private var responses: ArrayList<Response>):
     RecyclerView.Adapter<RvAdapterResponses.ViewHolder>() {
     private var fragmentManager = GlobalVariables.instance.fragmentManager
 
@@ -34,7 +31,7 @@ class RvAdapterResponses(private var responces: ArrayList<Response>):
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        var binding = GoodResponsePreviewBiding.bind(
+        var binding = GoodResponsePreviewBinding.bind(
             LayoutInflater.from(parent.context)
                 .inflate(R.layout.goods_fragment, parent, false)
         )
@@ -44,11 +41,11 @@ class RvAdapterResponses(private var responces: ArrayList<Response>):
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         holder.binding.viewModel = ViewModel()
-        holder.binding.viewModel!!.response = responces[position]
+        holder.binding.viewModel!!.response = responses[position]
     }
 
     override fun getItemCount(): Int {
-        return responces.size
+        return responses.size
     }
 
 }

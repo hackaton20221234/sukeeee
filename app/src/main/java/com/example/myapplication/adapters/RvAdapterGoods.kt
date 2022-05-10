@@ -8,6 +8,7 @@ import com.example.myapplication.databinding.*
 import com.example.myapplication.dtos.entities.Good
 import com.example.myapplication.utils.AppFragmentManager
 import com.example.myapplication.utils.GlobalVariables
+import com.example.myapplication.viewmodels.GoodResponseViewModel
 
 
 class RvAdapterGoods(private var goods: ArrayList<Good>):
@@ -23,7 +24,7 @@ class RvAdapterGoods(private var goods: ArrayList<Good>):
 
 
         fun openEditOfferFragment() {
-            fragmentManager.openFragmentAboveMain(AppFragmentManager.FragmentsName.GoodResponsePreviewFragment)
+            fragmentManager.openFragmentAboveMain(AppFragmentManager.FragmentsName.GoodPreviewFragment)
             var binding = fragmentManager.getCurrentFragmentBinding<GoodsFragmentBinding>()
             var viewModel = binding!!.viewModel!!
             viewModel.good=good
@@ -40,7 +41,7 @@ class RvAdapterGoods(private var goods: ArrayList<Good>):
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        holder.binding.viewModel = ViewModel()
+        holder.binding.viewModel = GoodResponseViewModel()
         holder.binding.viewModel!!.good = goods[position]
     }
 

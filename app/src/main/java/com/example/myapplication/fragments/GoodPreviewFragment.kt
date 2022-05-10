@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.example.myapplication.adapters.RvAdapterGoods
 import com.example.myapplication.databinding.GoodFragmentBinding
 import com.example.myapplication.viewmodels.GoodPreviewViewModel
 
@@ -17,7 +18,7 @@ class GoodPreviewFragment : Fragment() {
 
         var binding = GoodFragmentBinding.inflate(layoutInflater)
 
-        binding.viewModel = GoodPreviewViewModel()
+        binding.viewModel = RvAdapterGoods.ViewModel()
 
         return binding.root
     }

@@ -5,6 +5,8 @@ import androidx.databinding.ViewDataBinding
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import com.example.myapplication.R
+import com.example.myapplication.apiworkers.GoodsApiWorker
+import com.example.myapplication.dtos.responces.GoodsResponse
 import com.example.myapplication.fragments.*
 
 
@@ -25,6 +27,7 @@ class AppFragmentManager(private var fragmentManager: FragmentManager) {
         EditAnnouncementFragment,
         EnterFragment,
         GoodFragment,
+        GoodsResponse,
         GoodPreviewFragment,
         SupplierAuthFragment,
         SupplierActivity,
@@ -80,6 +83,7 @@ class AppFragmentManager(private var fragmentManager: FragmentManager) {
 
         var newFragment: Fragment = when (fragmentName) {
             FragmentsName.TutorialSecondFragment-> TutorialSecondFragment()
+            FragmentsName.GoodsResponse-> GoodResponseFragment()
             FragmentsName.FirmAuthFragment->FirmAuthFragment()
             FragmentsName.SupplierProfileFragment -> SupplierProfileFragment()
             else -> throw IllegalArgumentException("This Fragment can't be instantiate")

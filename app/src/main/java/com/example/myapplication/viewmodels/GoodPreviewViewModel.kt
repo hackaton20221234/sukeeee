@@ -6,6 +6,7 @@ import com.example.myapplication.apiworkers.GoodsApiWorker
 import com.example.myapplication.databinding.GoodsFragmentBinding
 import com.example.myapplication.dtos.entities.Good
 import com.example.myapplication.dtos.responces.GoodsResponse
+import com.example.myapplication.utils.AppFragmentManager
 import com.example.myapplication.utils.GlobalVariables
 
 class GoodPreviewViewModel {
@@ -20,7 +21,7 @@ class GoodPreviewViewModel {
     var goodsApiWorker = GoodsApiWorker()
     fun update() {
         var newGood = Good(good.id, name.get().toString())
-            ((price.get().toString().toDouble()) * 100).toInt())
+            ((price.get().toString().toDouble()) * 100).toInt()
         goodsApiWorker.update(newGood
         ) {
             if (it.equals("OK")) {
@@ -39,10 +40,9 @@ class GoodPreviewViewModel {
     }
     fun openResponsesFragment(){
         var fragmentManager = GlobalVariables.instance.fragmentManager
-        fragmentManager.openFragmentAboveMain(GoodsResponse)
+        fragmentManager.openFragmentAboveMain(AppFragmentManager.FragmentsName.GoodsResponse)
         var binding=fragmentManager.getCurrentFragmentBinding<GoodsFragmentBinding>()!!
         var viewModel = binding.viewModel!!
-        viewModel.offer=good
+        viewModel.good=good
     }
-}
 }

@@ -8,7 +8,7 @@
     <data>
         <variable
             name="viewModel"
-            type="com.example.myapplication.viewmodels.GoodPreviewViewModel" />
+            type="com.example.myapplication.adapters.RvAdapterGoods.ViewModel" />
     </data>
 
     <LinearLayout
