@@ -1,14 +1,13 @@
 package com.example.myapplication.viewmodels
 
 import androidx.databinding.ObservableField
-import com.example.myapplication.adapters.RvAdapterGoods
+
 import com.example.myapplication.adapters.RvAdapterResponses
-import com.example.myapplication.apiworkers.AppAuthApiWorker
-import com.example.myapplication.apiworkers.GoodsApiWorker
+
 import com.example.myapplication.apiworkers.ResponseApiWorkers
 import com.example.myapplication.dtos.entities.Good
 import com.example.myapplication.dtos.entities.Response
-import com.example.myapplication.dtos.responces.GoodsResponse
+
 import com.example.myapplication.dtos.responces.ResponseDto
 import com.example.myapplication.utils.GlobalVariables
 import com.google.gson.Gson
@@ -21,6 +20,7 @@ class GoodResponseViewModel {
             field = value
             responseApiWorkers.getAllResponses(::updateRv)
         }
+
     var rvProductsAdapter = ObservableField(RvAdapterResponses(arrayListOf()))
 
     init {
@@ -28,7 +28,6 @@ class GoodResponseViewModel {
     }
 
     private fun updateRv(jsonData: String?) {
-
         var responsesDto = Gson().fromJson(jsonData, ResponseDto::class.java)
         var firm = GlobalVariables.instance.firm
         var filteredResponse =

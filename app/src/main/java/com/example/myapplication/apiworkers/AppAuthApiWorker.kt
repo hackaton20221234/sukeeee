@@ -31,6 +31,8 @@ class AppAuthApiWorker {
             request,
         )
     }
+
+
     fun reqister(firm: Firm,successCallbackFunction: (String?) -> Unit){
 
         var httpMethod = Request.Method.POST

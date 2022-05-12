@@ -29,6 +29,8 @@ class RvAdapterGoods(private var goods: ArrayList<Good>):
             var viewModel = binding!!.viewModel!!
             viewModel.good=good
         }
+
+
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {

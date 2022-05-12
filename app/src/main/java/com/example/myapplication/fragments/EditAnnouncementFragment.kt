@@ -8,7 +8,7 @@ import androidx.fragment.app.Fragment
 import com.example.myapplication.databinding.EditAnnouncementBinding
 import com.example.myapplication.databinding.GoodsFragmentBinding
 import com.example.myapplication.viewmodels.EditAnnouncementViewModel
-import com.example.myapplication.viewmodels.GoodViewModel
+
 
 class EditAnnouncementFragment : Fragment() {
     override fun onCreateView(

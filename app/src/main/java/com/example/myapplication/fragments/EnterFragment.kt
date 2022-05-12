@@ -8,7 +8,6 @@ import androidx.fragment.app.Fragment
 import com.example.myapplication.databinding.EnterActivityBinding
 import com.example.myapplication.databinding.GoodsFragmentBinding
 import com.example.myapplication.viewmodels.EnterViewModel
-import com.example.myapplication.viewmodels.GoodViewModel
 
 class EnterFragment : Fragment() {
     override fun onCreateView(

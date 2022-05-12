@@ -31,7 +31,7 @@ class RvAdapterResponses(private var responses: ArrayList<Response>):
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        var binding = GoodResponsePreviewBinding.bind(
+        var binding = GoodsFragmentBinding.bind(
             LayoutInflater.from(parent.context)
                 .inflate(R.layout.goods_fragment, parent, false)
         )
